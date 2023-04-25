@@ -1,0 +1,8 @@
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+.container .item:first-child {
+  border: medium dashed red;
+}

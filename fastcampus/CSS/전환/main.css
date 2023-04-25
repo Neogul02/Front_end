@@ -1,0 +1,15 @@
+div{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: width 0.5s,
+   background-color 2s;
+}
+
+div:hover{
+  width: 300px;
+  background-color: royalblue;
+}
+div:active{
+  background-color: black;
+}

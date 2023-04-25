@@ -1,0 +1,40 @@
+.box {
+  width:  100px;
+  height: 100px;
+  background-color : orange;
+  transition: 1s;
+}
+
+.box:hover{ /* 선택자 요소에 마우스 커서가 올라가 있는 동안 */
+  width: 300px;
+  background-color: royalblue;
+}
+
+.box:active{ /* 선택자 요소를 클릭하는 동안 */
+  height: 300px;
+  background-color: aquamarine;
+}
+
+input{
+
+}
+
+input:focus{ /* 사용자에게 값을 입력받는 포커스 상태가 되면 */
+  background-color: orange;
+}
+
+.fruits *:nth-child(0n){ /* 2n = 짝수 2n+1 = 홀수 */
+  color: red;
+}
+
+.fruits *:not(span){
+  color : blue;
+}
+
+.box2::after{
+  content: "뒤";
+}
+
+[type="text"]{
+  background-color: orange;
+}
