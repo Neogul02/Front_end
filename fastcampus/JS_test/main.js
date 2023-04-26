@@ -1,0 +1,2 @@
+import getType from "./getType";
+

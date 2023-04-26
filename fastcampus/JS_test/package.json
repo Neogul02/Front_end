@@ -1,0 +1,24 @@
+{
+  "name": "JS_TEST",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neogul02/Front_end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neogul02/Front_end/issues"
+  },
+  "homepage": "https://github.com/Neogul02/Front_end#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
