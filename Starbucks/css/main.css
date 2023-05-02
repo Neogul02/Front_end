@@ -1,0 +1,77 @@
+/* COMMON */
+body {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+img {
+  display: block; /*로고 이미지를 블락요소로, 글자처럼 취급하겠다*/
+}
+a {
+  /*모든 링크 밑줄 없애기*/
+  text-decoration: none;
+}
+/* HEADER */
+header {
+  background-color: royalblue;
+}
+header .inner {
+  width: 1100px;
+  height: 120px;
+  margin: 0 auto;
+  background-color: orange;
+  position: relative;
+}
+header .logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 75px;
+  display: none;
+}
+
+header .sub-menu {
+}
+
+header .sub-menu ul.menu {
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+header .sub-menu ul.menu li {
+  position: relative;
+}
+header .sub-menu ul.menu li::before {
+  content: '';
+  width: 1px;
+  height: 12px;
+  background-color: #e5e5e5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+header .sub-menu ul.menu li:first-child:before {
+  display: none;
+}
+
+header .sub-menu ul.menu li a {
+  font-size: 12px;
+  padding: 11px 16px;
+  display: block;
+  color: #656565;
+}
+header .sub-menu ul.menu li a:hover {
+  color: #000;
+}
+
+
+header .sub-menu .search {
+}
+header .sub-menu .search input {
+}
+header .sub-menu .search .material-icons {
+}
