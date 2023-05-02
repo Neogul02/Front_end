@@ -1,0 +1,15 @@
+## Ignore File ##
+
+#확장자 전체 무시
+*zip
+
+#폴더 무시
+.cache/
+dist/
+node_modules/
+.vscode/
+
+
+#파일 무시
+how.txt
+web_Memo.xlsx

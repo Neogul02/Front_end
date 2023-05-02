@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Neogul02/Front_end#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "get": "^1.4.0"
   }
 }
